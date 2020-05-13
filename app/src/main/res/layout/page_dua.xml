@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:text="@string/txt_ikontak"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/txt_image"
+        android:src="@drawable/contact" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:text="@string/ket_kontak"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:text="@string/swipe_kanan"
+                android:textSize="21sp" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:contentDescription="@string/txt_image"
+                android:tint="#B8B6B6"
+                android:src="@drawable/ic_arrow_right" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:text="@string/swipe_kiri"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:id="@+id/btn_img2"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:tint="#B8B6B6"
+            android:contentDescription="@string/txt_image"
+            android:src="@drawable/ic_arrow_left" />
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>

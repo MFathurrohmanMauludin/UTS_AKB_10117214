@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ M Fathurrohman Mauludin - 10117214
+  -->
+
+<!--
+  ~ M Fathurrohman Mauludin - 10117214
+  -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/page1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/txt_feature"
+        android:textColor="@color/colorPrimary"
+        android:textSize="21sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:text="@string/txt_iprofile"/>
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/txt_image"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:text="@string/ket_profile"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:text="@string/swipe_kanan"
+                android:textSize="21sp" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:contentDescription="@string/txt_image"
+                android:tint="#B8B6B6"
+                android:src="@drawable/ic_arrow_right" />
+        </RelativeLayout>
+</LinearLayout>
+</ScrollView>

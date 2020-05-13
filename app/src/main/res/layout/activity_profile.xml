@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ M Fathurrohman Mauludin - 10117214
+  -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_profile"
+            android:layout_gravity="start"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="21sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/me"
+            android:contentDescription="@string/txt_image" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_nim"
+            android:padding="2dp"
+            android:layout_gravity="start"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_nama"
+            android:layout_marginTop="10dp"
+            android:padding="2dp"
+            android:layout_gravity="start"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/tv_kelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_kelas"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:padding="2dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/tv_deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/txt_deskripsi"
+            android:layout_gravity="start"
+            android:padding="2dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"/>
+        </LinearLayout>
+</LinearLayout>
+</ScrollView>
